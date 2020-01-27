@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Calculate">
+
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/tvappname"
+       android:layout_gravity="center"
+       android:text="Testing App"
+       android:layout_margin="20dp"
+       android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/etfirstno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Number"
+        android:layout_margin="20dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etsecondno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:hint="Enter second Number" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSum"
+        android:hint="SUM"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSub"
+        android:hint="SUBSTRACT"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDiv"
+        android:hint="DIVIDE"
+        android:textSize="20dp"/>
+
+
+
+
+
+</LinearLayout>
